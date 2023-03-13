@@ -50,4 +50,4 @@ login-message-delay: 10
 # Language for messages, check wiki for more info.
 # List: https://github.com/lenis0012/Translations
 # This setting should be set tot he file name without .json
-language: en_us
+language: ru_ru

@@ -175,7 +175,7 @@ disabled-commands:
 
 # Whether or not Essentials should show detailed command usages.
 # If set to false, Essentials will collapse all usages in to one single usage message.
-verbose-command-usages: true
+verbose-command-usages: false
 
 # These commands will be shown to players with socialSpy enabled.
 # You can add commands from other plugins you may want to track or
@@ -846,7 +846,7 @@ show-zero-baltop: true
 # For 1.234,50 use de-DE
 # For 1,234.50 use en-US
 # For 1'234,50 use fr-ch
-#currency-symbol-format-locale: en-US
+#currency-symbol-format-locale: ru-RU
 
 ############################################################
 # +------------------------------------------------------+ #
