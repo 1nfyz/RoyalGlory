@@ -1,0 +1,170 @@
+[13:03:42] [ServerMain/WARN]: [oshi.util.platform.windows.PerfDataUtil] Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[13:03:42] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQueryHandler] Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[13:03:42] [ServerMain/WARN]: [oshi.util.platform.windows.PerfCounterQuery] Disabling further attempts to query Paging File.
+[13:03:49] [ServerMain/WARN]: [oshi.util.platform.windows.WmiQueryHandler] COM exception: Invalid Query: SELECT PERCENTUSAGE FROM Win32_PerfRawData_PerfOS_PagingFile
+[13:04:00] [ServerMain/INFO]: Building unoptimized datafixer
+[13:04:03] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:04:09] [ServerMain/INFO]: Loaded 7 recipes
+[13:04:11] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[13:04:11] [Server thread/INFO]: Loading properties
+[13:04:11] [Server thread/INFO]: This server is running Purpur version git-Purpur-1930 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT) (Git: 8c8c18b on HEAD)
+[13:04:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:04:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:04:11] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[13:04:13] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
+[13:04:13] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
+[13:04:13] [Server thread/WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
+[13:04:13] [Server thread/WARN]: [Pufferfish] Debug: Java: 19.0.2, test run: true
+[13:04:13] [Server thread/INFO]: Default game type: SURVIVAL
+[13:04:13] [Server thread/INFO]: Generating keypair
+[13:04:13] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:04:13] [Server thread/INFO]: Using default channel type
+[13:04:14] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[13:04:14] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[13:04:15] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_19_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[13:04:25] [Server thread/WARN]: Legacy plugin LoginSecurity v3.1.1 does not specify an api-version.
+[13:04:25] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.64
+[13:04:26] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[13:04:26] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.13+46576cc
+[13:04:27] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@f853359]
+[13:04:27] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.2
+[13:04:27] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.19.7
+[13:04:27] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.0.0-SNAPSHOT-b615
+[13:04:30] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.8-beta-01+cbb2ba7
+[13:04:30] [Server thread/INFO]: [CoreProtect] Loading server plugin CoreProtect v21.3
+[13:04:30] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.32
+[13:04:30] [Server thread/INFO]: [TAB] Loading server plugin TAB v3.3.0
+[13:04:30] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v14.2.8
+[13:04:30] [Server thread/INFO]: [Orebfuscator] Loading server plugin Orebfuscator v5.3.2
+[13:04:30] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.1.1
+[13:04:30] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.3.7
+[13:04:31] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9
+[13:04:31] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.8-beta-01+cbb2ba7.
+[13:04:31] [Server thread/INFO]: [EssentialsProtect] Loading server plugin EssentialsProtect v2.19.7
+[13:04:31] [Server thread/INFO]: [CoreProtectTNT] Loading server plugin CoreProtectTNT v2.3.1
+[13:04:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:04:31] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.64
+[13:04:33] [Server thread/INFO]:         __    
+[13:04:33] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.64
+[13:04:33] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
+[13:04:33] [Server thread/INFO]: 
+[13:04:33] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[13:04:33] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[13:04:34] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[13:04:34] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[13:04:35] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 3624ms)
+[13:04:35] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[13:04:35] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[13:04:35] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[13:04:35] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[13:04:35] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[13:04:35] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.13+46576cc
+[13:04:35] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[13:04:35] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[13:04:36] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R2.PaperweightAdapter as the Bukkit adapter
+[13:04:39] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.0.0-SNAPSHOT-b615
+[13:04:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:04:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:04:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:04:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:04:39] [Server thread/INFO]: Preparing level "world"
+[13:04:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:04:42] [Server thread/INFO]: Time elapsed: 304 ms
+[13:04:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:04:42] [Server thread/INFO]: Time elapsed: 61 ms
+[13:04:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:04:42] [Server thread/INFO]: Time elapsed: 42 ms
+[13:04:42] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
+[13:04:43] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[13:04:43] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.7
+[13:04:43] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[13:04:43] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[13:04:43] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[13:04:44] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[13:04:45] [Server thread/INFO]: [Essentials] Using locale ru_RU
+[13:04:45] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[13:04:45] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[13:04:45] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[13:04:45] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[13:04:45] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.8-beta-01+cbb2ba7
+[13:04:45] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[13:04:45] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[13:04:45] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[13:04:45] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[13:04:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[13:04:46] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[13:04:46] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[13:04:46] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[13:04:46] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[13:04:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[13:04:46] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[13:04:46] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[13:04:46] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[13:04:46] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[13:04:46] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[13:04:46] [Server thread/INFO]: [WorldGuard] Loading region data...
+[13:04:46] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v21.3
+[13:04:46] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled! 
+[13:04:46] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[13:04:46] [Server thread/INFO]: --------------------
+[13:04:46] [Server thread/INFO]: [CoreProtect] Enjoy CoreProtect? Join our Discord!
+[13:04:46] [Server thread/INFO]: [CoreProtect] Discord: www.coreprotect.net/discord/
+[13:04:46] [Server thread/INFO]: --------------------
+[13:04:46] [Server thread/INFO]: [spark] Enabling spark v1.10.32
+[13:04:47] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[13:04:47] [Server thread/INFO]: [spark] Starting background profiler...
+[13:04:47] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[13:04:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: spark [1.10.32]
+[13:04:47] [Server thread/INFO]: [spark] Registered PlaceholderAPI placeholders
+[13:04:47] [Server thread/INFO]: [TAB] Enabling TAB v3.3.0
+[13:04:47] [Server thread/INFO]: [TAB] Server version: 1.19.3 (v1_19_R2)
+[13:04:47] [Server thread/INFO]: [TAB] Loaded NMS hook in 91ms
+[13:04:47] [Server thread/INFO]: [TAB] Enabled in 169ms
+[13:04:47] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.8
+[13:04:48] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R2[32;1m, using [33;1mPaperSkinRefresher[32;1m.[0;39m
+[13:04:48] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[13:04:48] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mUsing paper join listener![0;39m
+[13:04:48] [Server thread/INFO]: [Orebfuscator] Enabling Orebfuscator v5.3.2
+[13:04:48] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.1.1*
+[13:04:49] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[13:04:49] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[13:04:49] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[13:04:49] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[13:04:49] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[13:04:49] [Server thread/INFO]: [GSit] Enabling GSit v1.3.7
+[13:04:49] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[13:04:49] [Server thread/INFO]: [GSit] Link with WorldGuard successful!
+[13:04:49] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
+[13:04:49] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: gsit [1.3.7]
+[13:04:49] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[13:04:49] [Server thread/INFO]: [Graves] Integration: Hooked into Vault 1.7.3-b131.
+[13:04:49] [Server thread/INFO]: [Graves] Integration: Hooked into ProtocolLib 5.0.0-SNAPSHOT-b615.
+[13:04:49] [Server thread/INFO]: [Graves] Integration: Hooked into WorldEdit 7.2.13+46576cc.
+[13:04:49] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.8-beta-01+cbb2ba7.
+[13:04:49] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[13:04:49] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: graves [4.9]
+[13:04:49] [Server thread/INFO]: [Graves] Integration: Hooked into PlaceholderAPI 2.11.2.
+[13:04:49] [Server thread/INFO]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
+[13:04:49] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.19.7
+[13:04:49] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[13:04:50] [Server thread/INFO]: [EssentialsProtect] Starting Metrics. Opt-out using the global bStats config.
+[13:04:50] [Server thread/INFO]: [CoreProtectTNT] Enabling CoreProtectTNT v2.3.1
+[13:04:50] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[13:04:50] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[13:04:50] [Server thread/INFO]: Running delayed init tasks
+[13:04:50] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[13:04:50] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[13:04:50] [Server thread/INFO]: Done (39.527s)! For help, type "help"
+[13:04:50] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Получение информации о версии...
+[13:04:50] [Craft Scheduler Thread - 23 - Vault/INFO]: [Vault] Checking for Updates ... 
+[13:04:51] [Craft Scheduler Thread - 23 - Vault/INFO]: [Vault] No new version available
+[13:04:51] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[13:04:51] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[13:04:51] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m
+[13:04:51] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m
+[13:04:51] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m
+[13:04:51] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m
+[13:04:51] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
+[13:04:51] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.8[0;39m
+[13:04:51] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m
+[13:04:51] [Craft Scheduler Thread - 8 - SkinsRestorer/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m
