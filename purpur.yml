@@ -31,15 +31,15 @@ settings:
       run-with-scissors: <player> slipped and fell on their shears
       stonecutter: <player> has sawed themself in half
   tps-catchup: true
-  server-mod-name: Purpur
+  server-mod-name: Royal Glory
   use-alternate-keepalive: false
   disable-give-dropping: false
   username-valid-characters: ^[a-zA-Z0-9_.]*$
   fix-projectile-looting-transfer: false
   blocks:
-    disable-mushroom-updates: false
-    disable-note-block-updates: false
-    disable-chorus-plant-updates: false
+    disable-mushroom-updates: true
+    disable-note-block-updates: true
+    disable-chorus-plant-updates: true
     barrel:
       rows: 3
     ender_chest:
@@ -850,7 +850,7 @@ world-settings:
         ridable-max-y: 320.0
         flames:
           damage: 1.0
-          fire-time: 8
+          fire-time: 4
         allow-griefing: false
         attributes:
           max_health: '20.0'

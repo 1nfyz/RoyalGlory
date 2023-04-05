@@ -1,0 +1,511 @@
+# Defines hover over infomation about player who died. Use basic placeholders like %cmi_user_name% to include any information you would want
+# Set this like to '' if you want to avoid including hover over message
+PlayerHover:
+- ''
+# Defines hover over infomation about player who killed. Use basic placeholders like %cmi_user_name% to include any information you would want
+# Set this like to '' if you want to avoid including hover over message
+KillerHover:
+- ''
+Escaping:
+- ' &7Во время побега &2[sourceDisplayName]'
+- ' &7Во время боя &2[sourceDisplayName]'
+RunningAway:
+- ''
+Player:
+  General:
+  - '&b🗡 &r[playerDisplayName] был убит [sourceDisplayName]'
+  - '&b🗡 &r[playerDisplayName] был убит [sourceDisplayName]'
+  - '&b🗡 &r[playerDisplayName] был убит [sourceDisplayName]'
+  Item:
+  - '&b🗡 &r[playerDisplayName] был убит [sourceDisplayName]&7, используя&b [item]'
+  Projectile:
+  - '&2[playerDisplayName] &7was shot by &2[sourceDisplayName] &7with &2[type]'
+  Fireball:
+  - '&2[playerDisplayName] &7was fireballed by &2[sourceDisplayName]'
+  Firework:
+  - '&2[playerDisplayName] &7went off with a bang due to &2[sourceDisplayName]'
+FallingBlocks:
+  Anvil:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    - '&8☠&r [playerDisplayName]'
+    - '&8☠&r [playerDisplayName]'
+Block:
+  Cactus:
+    General:
+    - '&8☠&r [playerDisplayName]'
+  Dispenser:
+    Arrow:
+    - '&8☠&r [playerDisplayName]'
+    Splash_potion:
+    - '&8☠&r [playerDisplayName]'
+  Magma_block:
+    General:
+    - '&8☠&r [playerDisplayName]'
+  Sweet_berry_bush:
+    General:
+    - '&8☠&r [playerDisplayName]'
+  Lava:
+    General:
+    - '&8☠&r [playerDisplayName]'
+  Pointed_dripstone:
+    General:
+    - '&8☠&r [playerDisplayName]'
+Custom:
+  Block_explosion:
+    General:
+    - '&8☠&r [playerDisplayName]'
+  Fall:
+    Low:
+      General:
+      - '&8☠&r [playerDisplayName]'
+    High:
+      General:
+      - '&8☠&r [playerDisplayName]'
+  Fire:
+    General:
+    - '&8☠&r [playerDisplayName]'
+  Fire_tick:
+    General:
+    - '&8☠&r [playerDisplayName]'
+  Lightning:
+    General:
+    - '&8☠&r [playerDisplayName]'
+  Suffocation:
+    General:
+    - '&8☠&r [playerDisplayName]'
+  Custom:
+    General:
+    - '&8☠&r [playerDisplayName]'
+  Drowning:
+    General:
+    - '&8☠&r [playerDisplayName]'
+  Freeze:
+    General:
+    - '&8☠&r [playerDisplayName]'
+  Suicide:
+    General:
+    - '&8☠&r [playerDisplayName]'
+  Void:
+    General:
+    - '&8☠&r [playerDisplayName]'
+  EndCrystal:
+    General:
+    - '&8☠&r [playerDisplayName]'
+  Wither:
+    General:
+    - '&8☠&r [playerDisplayName]'
+  Fly_into_wall:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    - '&8☠&r [playerDisplayName]'
+Projectile:
+  Arrow:
+  - '&8☠&r [playerDisplayName]'
+  Spectral_arrow:
+  - '&8☠&r [playerDisplayName]'
+  Tipped_arrow:
+  - '&8☠&r [playerDisplayName]'
+  Fireball:
+  - '&8☠&r [playerDisplayName]'
+  Firework:
+  - '&8☠&r [playerDisplayName]'
+Mob:
+  Primed_tnt:
+    General:
+    - '&8☠&r [playerDisplayName]'
+  Elder_guardian:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Wither_skeleton:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Stray:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Husk:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Zombie_villager:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Skeleton_horse:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Zombie_horse:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Armor_stand:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Donkey:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Mule:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Evoker:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Vex:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Vindicator:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Illusioner:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Creeper:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Skeleton:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Spider:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Giant:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Zombie:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Slime:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Ghast:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Zombified_piglin:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Enderman:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Cave_spider:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Silverfish:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Blaze:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Magma_cube:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Ender_dragon:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Wither:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Bat:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Witch:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Endermite:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Guardian:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Shulker:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Pig:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Sheep:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Cow:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Chicken:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Squid:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Wolf:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Mushroom_cow:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Snowman:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Ocelot:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Iron_golem:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Horse:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Rabbit:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Polar_bear:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Llama:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Parrot:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Villager:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Turtle:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Phantom:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Cod:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Salmon:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Pufferfish:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Tropical_fish:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Drowned:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Dolphin:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Cat:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Panda:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Pillager:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Ravager:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Trader_llama:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Wandering_trader:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Fox:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Bee:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Hoglin:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Piglin:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Strider:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Zoglin:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Piglin_brute:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Axolotl:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Glow_squid:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Goat:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Allay:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Frog:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Tadpole:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Warden:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'
+  Camel:
+    General:
+    - '&8☠&r [playerDisplayName]'
+    Item:
+    - '&8☠&r [playerDisplayName]'

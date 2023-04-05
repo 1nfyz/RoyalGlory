@@ -1,0 +1,20 @@
+installTime: 1679584298248
+MCBarrelTime: 18068
+prevSaveSeeds:
+- 4351407115912981038
+- 1345230082232570589
+brewsCreated:
+- 979
+- 64
+- 133
+- 146
+- 7
+- 0
+- 54
+brewsCreatedH: 690003170
+Player:
+  edff1981-b930-35f6-a0cd-f1f1793b15cf:
+    quality: 0
+    drunk: -3269
+    offDrunk: 34
+Version: '1.2'

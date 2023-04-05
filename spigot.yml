@@ -17,7 +17,7 @@ settings:
   restart-script: ./start.sh
   save-user-cache-on-stop-only: false
   sample-count: 12
-  bungeecord: false
+  bungeecord: true
   user-cache-size: 1000
   player-shuffle: 0
   attribute:
@@ -33,12 +33,12 @@ settings:
   moved-too-quickly-multiplier: 10.0
   moved-wrongly-threshold: 0.0625
 messages:
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
+  whitelist: Вы не прошли верификацию.
+  unknown-command: Неизвестная команда.
+  server-full: Сервер переполнен!
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
+  restart: Перезапуск сервера ➽
 advancements:
   disable-saving: false
   disabled:
@@ -72,11 +72,11 @@ world-settings:
     merge-radius:
       item: 2.5
       exp: 3.0
-    item-despawn-rate: 6000
-    mob-spawn-range: 8
+    item-despawn-rate: 10000
+    mob-spawn-range: 3
     simulation-distance: default
-    arrow-despawn-rate: 1200
-    trident-despawn-rate: 1200
+    arrow-despawn-rate: 600
+    trident-despawn-rate: 600
     nerf-spawner-mobs: false
     enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0

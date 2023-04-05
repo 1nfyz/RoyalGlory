@@ -1,0 +1,5 @@
+CustomAlias:
+  m:
+    Cmds:
+    - msg
+    AddTabs: true

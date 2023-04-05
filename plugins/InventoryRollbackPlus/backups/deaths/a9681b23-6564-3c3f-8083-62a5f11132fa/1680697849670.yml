@@ -1,0 +1,12 @@
+xp: 71.0
+health: 2.0
+hunger: 11
+saturation: 4.0
+location:
+  world: world
+  x: 2428.5
+  y: 67.0
+  z: -785.5
+logType: DEATH
+version: v1_19_R2
+deathReason: ENTITY_ATTACK (Fat_Cat_origenal)

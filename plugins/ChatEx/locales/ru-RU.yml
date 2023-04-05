@@ -1,0 +1,32 @@
+Commands:
+  Reload:
+    Description: Перезагружает плагин и его конфигурацию.
+  Clear:
+    Description: Очищает чат.
+    Console: Консоль
+    Unknown: Неизвестно
+Messages:
+  Chat:
+    AdDetected: '&f[&4Внимание&f] &7Реклама в чате запрещена! &7(&e%perm&7)'
+    AdNotify: '&f[&4Внимание&f] &e%player &7пытался рекламировать в чате: &e%message'
+    BlockedWord: '&f[&4Внимание&f] &7Вам нельзя писать запрещенные слова!'
+    NoOneListens: '&7Тебя никто не услышал..'
+  Commands:
+    Reload:
+      Success: '&f[&4Внимание&f] &7ChatEx был перезагружен!'
+    Clear:
+      Success: '&f[&4Внимание&f] &7Чат был очищен! '
+  CommandResult:
+    NoPermission: '&f[&4Внимание&f] &7У вас нет прав на это! &7(&e%perm&7)'
+    WrongUsage: '&f[&4Внимание&f] &7неизвестная команда, используйте: &e%cmd help&7!'
+  Player:
+    Join: '&8[&2+&8]&r %displayname'
+    Quit: '&8[&c-&8]&r %displayname'
+    Kick: '%prefix %displayname %suffix &7был кикнут с сервера!'
+  UpdateFound: '&f[&4Внимание&f] &7Новая версия ChatEx (&e%newversion&7) доступна!
+    У вас установлена: &e%oldversion'
+  UpdateDownloaded: '&f[&4Внимание&f] &7Обновление ChatEx успешно установлено и будет
+    активно после перезапуска!'
+  AntiSpam:
+    Denied: '&f[&4Внимание&f] &eАнтиспам &7заметил массовую рассылку! Перед отправкой
+      следующего сообщения подождите &e%time% &7секунд(ы)!'

@@ -1,0 +1,21 @@
+inventory: |
+  rO0ABXcEAAAAKXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFw
+  dAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFi
+  bGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVj
+  dDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAA
+  BHQAAj09dAABdnQABHR5cGV0AAZhbW91bnR1cQB+AAYAAAAEdAAeb3JnLmJ1a2tpdC5pbnZlbnRv
+  cnkuSXRlbVN0YWNrc3IAEWphdmEubGFuZy5JbnRlZ2VyEuKgpPeBhzgCAAFJAAV2YWx1ZXhyABBq
+  YXZhLmxhbmcuTnVtYmVyhqyVHQuU4IsCAAB4cAAADJJ0AAtXSEVBVF9TRUVEU3NxAH4ADgAAAAJw
+  cHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBwcHBw
+xp: 5.0
+health: 2.333332061767578
+hunger: 15
+saturation: 0.0
+location:
+  world: world
+  x: 2432.9
+  y: 64.0
+  z: -784.6
+logType: DEATH
+version: v1_19_R2
+deathReason: PROJECTILE (Arrow, Skeleton)

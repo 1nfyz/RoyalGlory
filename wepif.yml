@@ -39,7 +39,7 @@ permissions:
             permissions:
             - '*'
     users:
-        sk89q:
+        1nfyz:
             permissions:
             - worldedit
             groups:

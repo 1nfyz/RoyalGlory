@@ -1,0 +1,8 @@
+Database:
+  # mysql | sqlite
+  type: "sqlite"
+  host: "localhost"
+  port: ""
+  database: "gsit"
+  user: "root"
+  password: "root"

@@ -7,8 +7,11 @@ Lang:
 
 Options:
   
+  # Defines the list of active feature flags (most likely unofficial features for individual use)
+  FeatureFlags: []
+  
   # Defines whether the plugin should notify when a new version is available
-  check-for-update: true
+  check-for-update: false
   
   # Defines whether the plugin uses an extended compatibility mode for all features
   # Enable this option only if, for example, anti-cheat plugins report false feedback
@@ -30,17 +33,16 @@ Options:
   allow-unsafe: false
   
   # Defines whether more than one player can sit or pose on the same block
-  same-block-rest: false
+  same-block-rest: true
   
   # Defines whether a player is centered on the block when sitting or posing
-  center-block: true
+  center-block: false
   
   Sit:
     
     # Defines the blocks a player can sit on by clicking (materials and tags)
     # Separate a material or tag from its y-offset with a ";" character
     SitMaterials:
-    - '#stairs'
     - '#slabs'
     - '#carpets'
     - '#wool_carpets'
@@ -49,7 +51,7 @@ Options:
     - snow
     
     # Defines whether you can sit on stairs and slabs that are not in the bottom part of a block
-    bottom-part-only: true
+    bottom-part-only: false
     
     # Defines whether a player needs an empty main hand to sit down by clicking
     empty-hand-only: true
@@ -61,7 +63,7 @@ Options:
     sit-message: true
     
     # Defines whether a player can sit by default without using the sit toggle command
-    default-sit-mode: true
+    default-sit-mode: false
   
   
   
@@ -71,7 +73,7 @@ Options:
     allow-sit: true
     
     # Defines whether a player can right-click to sit on an NPC
-    allow-sit-npc: true
+    allow-sit-npc: false
     
     # Defines the maximum number of players that can be stacked (0 means unlimited)
     max-stack: 0
@@ -92,7 +94,7 @@ Options:
     sit-message: true
     
     # Defines whether a player can sit on another player by default without using the sit playertoggle command
-    default-sit-mode: true
+    default-sit-mode: false
   
   
   
@@ -153,6 +155,4 @@ Options:
   CommandBlacklist:
   - skin
   - nick
-
-# Defines the list of active feature flags (most likely unofficial features for individual use)
 FeatureFlags: []

@@ -1,0 +1,35 @@
+# Defines hover over infomation about player who died. Use basic placeholders like %cmi_user_name% to include any information you would want
+# Set this like to '' if you want to avoid including hover over message
+PlayerHover:
+- ''
+# Defines hover over infomation about player who killed. Use basic placeholders like %cmi_user_name% to include any information you would want
+# Set this like to '' if you want to avoid including hover over message
+KillerHover:
+- ''
+Escaping:
+- ' &7while escaping &2[sourceDisplayName]'
+- ' &7while fighting &2[sourceDisplayName]'
+RunningAway:
+- ' &7while running away from &2[prevMobName]'
+- ' &7while fighting &2[prevMobName]'
+Player:
+  General:
+  - '&2[playerDisplayName] &7was killed by &2[sourceDisplayName]'
+  - '&2[playerDisplayName] &7died by &2[sourceDisplayName] &7mighty hand'
+  - '&2[playerDisplayName] &7was punched to death by &2[sourceDisplayName]'
+  Item:
+  - '&2[playerDisplayName] &7died by &2[sourceDisplayName] &7hand who used &2[item]'
+  Projectile:
+  - '&2[playerDisplayName] &7was shot by &2[sourceDisplayName] &7with &2[type]'
+  Fireball:
+  - '&2[playerDisplayName] &7was fireballed by &2[sourceDisplayName]'
+  Firework:
+  - '&2[playerDisplayName] &7went off with a bang due to &2[sourceDisplayName]'
+FallingBlocks:
+  Anvil:
+    General:
+    - '&2[playerDisplayName] &7was squashed by a falling anvil'
+    - '&2[playerDisplayName] &7was crushed by anvil'
+    - '&2[playerDisplayName] &7hit anvil with his head'
+Block: - ☠ [playerDisplayName]
+ 

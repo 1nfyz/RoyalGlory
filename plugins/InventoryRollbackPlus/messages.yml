@@ -1,0 +1,64 @@
+general:
+  prefix: '&7&oServer: '
+
+commands:
+  no-permission: '&cУ вас нет прав на это!'
+  error: '&4Что за команда O_o?'
+  enable: '&fПлагин включен.'
+  disable: '&fПлагин выключен(зачем ты это сделал?)'
+  reload: '&fПлагин перезагружен.'
+  player-only: '&fЭту команду могут использовать только игроки.'
+  import: '&aВсе сохранения перенесены из старого плагина.'
+
+backup:
+  no-backup: 'Текущее сохранение %NAME%.'
+  not-online: '%NAME% не в сети.'
+  force-saved-player: 'Инвентарь %NAME% был сохранён.'
+  force-saved-all: 'Инвентари всех игроков сохранены.'
+  not-forced-saved: 'Инвентарь %NAME% не сохранился'
+
+attribute-restore:
+  main-inventory:
+    restored: '%NAME% откачен'
+    restored-player: 'Ваш инвентарь восстановлен %NAME% из бекапа'
+    not-online: 'Вы не можете вернуть инвентарь игроку %NAME%, пока он не на сервере.'
+    button-name: '&cПерезаписать инвентарь из сохранения.'
+    button-disabled: '&cSingle click restore is disabled\n&cin the config.yml file!'
+  ender-chest:
+    restored: '%NAME% откачен'
+    restored-player: 'Ваш эндерчест восстановлен %NAME% из бекапа'
+    not-online: 'Вы не можете вернуть эндерчест игроку %NAME%, пока он не на сервере.'
+    button-name: '&dВосстановить эндерчест'
+  health:
+    restored: '%NAME% откачен'
+    restored-player: 'Ваше здоровье восстановлено %NAME% из бекапа'
+    not-online: 'Вы не можете вернуть здоровье игроку %NAME%, пока он не на сервере.'
+    button-name: '&aВосстановить здоровье'
+  hunger:
+    restored: '%NAME% откачен'
+    restored-player: 'Ваш голод был возвращён %NAME% из бекапа'
+    not-online: 'Вы не можете вернуть голод игроку %NAME%, пока он не на сервере.'
+    button-name: '&cВосстановить голод игрока'
+  experience:
+    restored: '%NAME% откачен'
+    restored-player: 'Ваш опыт был возвращён игроком %NAME% из бекапа'
+    not-online: 'Вы не можете вернуть опыт игроку %NAME%, пока он не на сервере.'
+    button-name: '&2Восстановить опыт игрока'
+    button-lore: '&rУровень %XP%'
+
+death-location:
+  world: '&6Мир: &f%WORLD%'
+  x: '&6X: &f%X%'
+  y: '&6Y: &f%Y%'
+  z: '&6Z: &f%Z%'
+  reason: '&6Причина смерти: &f%REASON%'
+  time: '&6Время: &f%TIME%'
+  teleport-to: '&3Телепортация.'
+  teleport: 'Вы телепортированы на %LOCATION%'
+  invalid-world: 'Мир %WORLD% не существует на сервере.'
+
+menu-buttons:
+  main-menu: '&fГлавное меню'
+  next-page: '&fСледующая страница'
+  previous-page: '&fПредыдущая страница'
+  back-page: '&fВернуть'
